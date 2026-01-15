@@ -162,3 +162,60 @@ nav ul li:hover {
   line-height: 20px;
   border: 2px solid red;
 }
+/* second brain container */
+.second-brain {
+  max-width: 1360px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+  padding: 120px;
+  border: 2px solid greenyellow;
+}
+.second-brain-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  border: 2px solid green;
+}
+.section-level {
+  color: #30b868;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: left;
+  line-height: 20px;
+}
+.second-brain-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  line-height: 58px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.second-brain-description {
+  color: #627382;
+  line-height: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+.feature-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.common{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.common span{
+    color:rgba(0, 25, 49, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
