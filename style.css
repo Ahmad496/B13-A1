@@ -7,10 +7,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+button:hover {
+  cursor: pointer;
+  background-color: #001931;
+}
 .container {
   max-width: 1600px;
   margin: 0 auto;
-  border: 4px solid royalblue;
+  /* border: 4px solid royalblue; */
 }
 .btn {
   font-weight: 600;
@@ -26,7 +30,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   align-items: center;
   padding: 16px 120px 16px 120px;
   background: rgba(255, 255, 255, 1);
@@ -52,22 +56,22 @@ nav ul li:hover {
 }
 /* banner section */
 #banner {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background: url("./assets/hero-bg.png");
 }
 .banner-content {
-  /* max-width: 1360px;
-  margin: 0 auto; */
+  max-width: 1360px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin: 70px 120px 134px;
-  border: 3px solid yellow;
+  /* margin: 70px 120px 134px 0; */
+  padding: 154px 341px 180px 341px;
+  /* border: 3px solid yellow; */
 }
 .banner-heading {
-  font-style: bold;
   font-size: 72px;
   font-weight: 700;
   line-height: 84px;
@@ -85,7 +89,7 @@ nav ul li:hover {
   border-radius: 1000px;
 }
 .banner-description {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
@@ -106,7 +110,7 @@ nav ul li:hover {
 .card-parent {
   max-width: 1360px;
   margin: 0 auto;
-  border: 2px solid goldenrod;
+  /* border: 2px solid goldenrod; */
   /* background-color: greenyellow; */
   display: flex;
   flex-direction: column;
@@ -162,7 +166,7 @@ nav ul li:hover {
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 /* second brain container */
 .second-brain {
@@ -173,7 +177,7 @@ nav ul li:hover {
   align-items: center;
   gap: 60px;
   padding: 120px;
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
 }
 .second-brain-text {
   display: flex;
@@ -181,7 +185,7 @@ nav ul li:hover {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 40px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .section-level {
   color: #30b868;
@@ -233,7 +237,7 @@ nav ul li:hover {
   gap: 24px;
   padding: 80px 40px;
   background: rgba(247, 246, 242, 1);
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .cta-title {
   font-size: 40px;
@@ -271,7 +275,8 @@ nav ul li:hover {
   display: flex;
   justify-content: space-between;
   padding: 120px 120px 30px 120px;
-  border: 2px solid red;
+  margin-bottom: 80px;
+  /* border: 2px solid red; */
 }
 .footer-social-title {
   color: rgba(255, 255, 255, 1);
