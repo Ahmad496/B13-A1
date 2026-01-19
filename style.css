@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .container {
   max-width: 1600px;
@@ -166,6 +167,7 @@ nav ul li:hover {
 /* second brain container */
 .second-brain {
   max-width: 1360px;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -255,6 +257,7 @@ nav ul li:hover {
 /* footer */
 .footer-content {
   background: rgba(0, 25, 49, 1);
+  margin-top: 120px;
 }
 .footer-note {
   text-align: center;
@@ -270,25 +273,25 @@ nav ul li:hover {
   padding: 120px 120px 30px 120px;
   border: 2px solid red;
 }
-.footer-social-title{
-  color:rgba(255, 255, 255, 1);
+.footer-social-title {
+  color: rgba(255, 255, 255, 1);
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
   text-align: center;
 }
-.fa-brands{
-  background-color:#FFFFFF;
+.fa-brands {
+  background-color: #ffffff;
   border-radius: 100%;
   padding: 3px;
   margin-top: 5px;
   margin-right: 5px;
 }
-.line{
+.line {
   margin-bottom: 5px;
   max-width: 1360px;
   margin: 0 auto;
-  color:rgba(229, 231, 235, 1);
+  color: rgba(229, 231, 235, 1);
   opacity: 0.2;
   margin-bottom: 30px;
 }
